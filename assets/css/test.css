@@ -21369,3 +21369,16 @@ html {
     width: 50%;
 }
   
+@media (max-width: 1000px) {
+  #pupino {
+    display: flex;
+    flex-direction: column;
+    align-content: center
+  }
+  #pupino > div{
+    width: 350px;
+}
+.new-order-table{
+  width: 350px!important;
+}
+}
