@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Dashboard - NiceAdmin Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet" />
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Updated: Mar 09 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.png" alt="" />
+          <span class="d-none d-lg-block">Inversiones XXI</span>
+        </a>
+      </div>
+      <!-- End Logo -->
+
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <!-- End Search Icon-->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span> </a
+            ><!-- End Notification Icon -->
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications"
+            >
+              <li class="dropdown-header">
+                Tienes 4 nuevos movimientos
+               
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-exclamation-circle text-warning"></i>
+                <div>
+                  <h4>Compra en Supermercado</h4>
+                  <p>20/04/2023</p>
+                  <p>$10.000,41</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-x-circle text-danger"></i>
+                <div>
+                  <h4>Error al cargar movimiento</h4>
+                  <p>18/04/2023</p>
+                  <p>$15.000,30</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-check-circle text-success"></i>
+                <div>
+                  <h4>Ingresaste dinero</h4>
+                  <p>10/04/2023</p>
+                  <p>$20.000,05</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-info-circle text-primary"></i>
+                <div>
+                  <h4>Retiraste dinero</h4>
+                  <p>05/04/2023</p>
+                  <p>$1.000,20</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              
+            </ul>
+            <!-- End Notification Dropdown Items -->
+          </li>
+          <!-- End Notification Nav -->
+
+          <li class="nav-item dropdown pe-3">
+            <a
+              class="nav-link nav-profile d-flex align-items-center pe-0"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="assets/img/profile-img.jpg"
+                alt="Profile"
+                class="rounded-circle"
+              />
+              <span class="d-none d-md-block dropdown-toggle ps-2"
+                >D. Milito</span
+              > </a
+            ><!-- End Profile Iamge Icon -->
+
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+            >
+              <li class="dropdown-header">
+                <h6>Diego Milito</h6>
+                <span>Desarrollador de Soft.</span>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
+                  <i class="bi bi-person"></i>
+                  <span>Mi perfil</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
+                  <i class="bi bi-gear"></i>
+                  <span>Configuraciones</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="pages-faq.html"
+                >
+                  <i class="bi bi-question-circle"></i>
+                  <span>Ayuda</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Salir</span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Profile Dropdown Items -->
+          </li>
+          <!-- End Profile Nav -->
+        </ul>
+      </nav>
+      <!-- End Icons Navigation -->
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="bi bi-grid"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>Perfil</span>
+          </a>
+        </li>
+        <!-- End Profile Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>Inversiones</span>
+          </a>
+        </li>
+        <!-- End F.A.Q Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Movimientos</span>
+          </a>
+        </li>
+        <!-- End Contact Page Nav -->
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
+
+    <main id="main" class="main">
+      <div class="pagetitle">
+        <h1>Inicio</h1>
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active">Resumen</li>
+          </ol>
+        </nav>
+      </div>
+      <!-- End Page Title -->
+
+      <section class="section dashboard">
+        <div class="row">
+          <!-- Left side columns -->
+          <div class="col-lg-8">
+            <div class="row">
+              <!-- Sales Card -->
+              <div class="col-xxl-4 col-md-6">
+                <div class="card info-card sales-card">
+                  <div class="filter">
+
+                    </ul>
+                  </div>
+
+                  <div class="card-body">
+                    <h5 class="card-title">Movimientos de este mes <span>| Abril</span></h5>
+
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="bi bi-cart"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>17</h6>
+                        <span class="text-success small pt-1 fw-bold">30%</span>
+                        <span class="text-muted small pt-2 ps-1">en Moda</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Sales Card -->
+
+              <!-- Revenue Card -->
+              <div class="col-xxl-4 col-md-6">
+                <div class="card info-card revenue-card">
+
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Dinero disponible en cuenta <span>| Abril</span>
+                    </h5>
+
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="bi bi-currency-dollar"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>$130.264</h6>
+                        <span class="text-muted small pt-2 ps-1">Pesos ARG</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Revenue Card -->
+
+              <!-- Customers Card -->
+              <div class="col-xxl-4 col-xl-12">
+                <div class="card info-card customers-card">
+                 
+
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Ingresos de este mes <span>| Abril</span>
+                    </h5>
+
+                    <div class="d-flex align-items-center">
+                      <div
+                        class="card-icon rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="bi bi-people"></i>
+                      </div>
+                      <div class="ps-3">
+                        <h6>$100.254</h6>
+                        <span class="text-muted small pt-2 ps-1">Pesos ARG</span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- End Customers Card -->
+
+              <!-- Reports -->
+              <div class="col-12">
+               <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text"></span></a> </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "exchange": "NASDAQ",
+  "showChart": true,
+  "locale": "es",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": false,
+  "showFloatingTooltip": false,
+  "width": "100%",
+  "height": "600",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 0)",
+  "scaleFontColor": "rgba(106, 109, 120, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+              </div>
+              <!-- End Reports -->
+
+              <!-- Recent Sales -->
+              <div class="col-12">
+                <div class="card recent-sales overflow-auto">
+                 
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Ultimos movimientos<span>| Abril</span>
+                    </h5>
+
+                    <table class="table table-borderless datatable">
+                      <thead>
+                        <tr>
+                          <th scope="col">#ID</th>
+                          <th scope="col">Establecimiento</th>
+                          <th scope="col">Categoria</th>
+                          <th scope="col">Precio</th>
+                          <th scope="col">Estado</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row"><a href="#">#2457</a></th>
+                          <td>Super XXI</td>
+                          <td>
+                            <a href="#" class="text-primary"
+                              >Supermercado</a
+                            >
+                          </td>
+                          <td>$6434</td>
+                          <td>
+                            <span class="badge bg-success">Aprobada</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><a href="#">#2147</a></th>
+                          <td>Tender Más</td>
+                          <td>
+                            <a href="#" class="text-primary"
+                              >Ropa y accesorios</a
+                            >
+                          </td>
+                          <td>$47414,15</td>
+                          <td><span class="badge bg-warning">Pendiente</span></td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><a href="#">#2049</a></th>
+                          <td>Ashleigh Langosh</td>
+                          <td>
+                            <a href="#" class="text-primary"
+                              >Restaurantes</a
+                            >
+                          </td>
+                          <td>$1473</td>
+                          <td>
+                            <span class="badge bg-success">Aprobada</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><a href="#">#2644</a></th>
+                          <td>PlayStation LATAM</td>
+                          <td>
+                            <a href="#" class="text-primar"
+                              >Entretenimiento</a
+                            >
+                          </td>
+                          <td>USD $67</td>
+                          <td><span class="badge bg-danger">Rechazada</span></td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><a href="#">#2644</a></th>
+                          <td>Netflix</td>
+                          <td>
+                            <a href="#" class="text-primary"
+                              >Entretenimiento</a
+                            >
+                          </td>
+                          <td>$2100</td>
+                          <td>
+                            <span class="badge bg-success">Aprobada</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- End Recent Sales -->
+
+             
+            </div>
+          </div>
+          <!-- End Left side columns -->
+
+          <!-- Right side columns -->
+          <div class="col-lg-4" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <!-- Recent Activity -->
+            <div class="card" >
+             
+
+              <div class="card-body">
+                <h5 class="card-title">Actividad reciente <span>| Abril</span></h5>
+
+                <div class="activity">
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">32 min</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-success align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Ingreso de dinero
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">56 min</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-danger align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Retiro de dinero
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">2 hrs</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-primary align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Compra en "Supermercados"
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">1 day</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-info align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Compra $AAPL
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">2 days</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-warning align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Venta $TSLA
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+
+                  <div class="activity-item d-flex">
+                    <div class="activite-label">4 weeks</div>
+                    <i
+                      class="bi bi-circle-fill activity-badge text-muted align-self-start"
+                    ></i>
+                    <div class="activity-content">
+                      Registrate un movimiento en "Entretenimiento"
+                    </div>
+                  </div>
+                  <!-- End activity item-->
+                </div>
+              </div>
+            </div>
+            <!-- End Recent Activity -->
+
+            <div>
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/NASDAQ-AAPL/technicals/" rel="noopener" target="_blank"><span class="blue-text">Análisis de AAPL</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "interval": "1m",
+  "width": "100%",
+  "isTransparent": false,
+  "height": 500,
+  "symbol": "NASDAQ:AAPL",
+  "showIntervalTabs": true,
+  "locale": "es",
+  "colorTheme": "light"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+            </div>
+
+          
+
+            <!-- Website Traffic -->
+            <div class="card">
+             
+
+              <div class="card-body pb-0">
+                <h5 class="card-title">Composicion de cartera <span>| Abril</span></h5>
+
+                <div
+                  id="trafficChart"
+                  style="min-height: 400px"
+                  class="echart"
+                ></div>
+
+                <script>
+                  document.addEventListener("DOMContentLoaded", () => {
+                    echarts
+                      .init(document.querySelector("#trafficChart"))
+                      .setOption({
+                        tooltip: {
+                          trigger: "item",
+                        },
+                        legend: {
+                          top: "5%",
+                          left: "center",
+                        },
+                        series: [
+                          {
+                            name: "Access From",
+                            type: "pie",
+                            radius: ["40%", "70%"],
+                            avoidLabelOverlap: false,
+                            label: {
+                              show: false,
+                              position: "center",
+                            },
+                            emphasis: {
+                              label: {
+                                show: true,
+                                fontSize: "18",
+                                fontWeight: "bold",
+                              },
+                            },
+                            labelLine: {
+                              show: false,
+                            },
+                            data: [
+                              {
+                                value: 130264,
+                                name: "PESOS ARG",
+                              },
+                              {
+                                value: 123735,
+                                name: "AAPL",
+                              },
+                              {
+                                value: 83580,
+                                name: "MELI",
+                              },
+                              {
+                                value: 90484,
+                                name: "TSLA",
+                              },
+                              {
+                                value: 100300,
+                                name: "YPFD",
+                              },
+                            ],
+                          },
+                        ],
+                      });
+                  });
+                </script>
+              </div>
+            </div>
+            <!-- End Website Traffic -->
+
+           
+            <!-- End News & Updates -->
+          </div>
+          <!-- End Right side columns -->
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Inversiones XXI</span></strong
+        >. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+        Designed by Inversiones XXI
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
