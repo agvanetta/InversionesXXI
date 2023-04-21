@@ -1238,3 +1238,20 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+#cerrar{
+    background-color: red!important;
+    display: none;
+  }
+  .cerrar{
+    background-color: red;
+    display: none;
+  }
+@media (max-width: 1000px) {
+  .datatable-table thead tr th:nth-child(3),
+  .datatable-table thead tr th:nth-child(4),
+  .datatable-table tbody tr td:nth-child(4),
+.datatable-table tbody tr td:nth-child(5){
+  display: none;
+}
+}
